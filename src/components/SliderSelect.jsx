@@ -4,7 +4,6 @@ import SliderComponent from "./common/SliderComponent";
 
 function SliderSelect({ data, setData }) {
   const bank_limit = 10000;
-  console.log(data);
 
   return (
     <Stack spacing={2} padding={2}>
